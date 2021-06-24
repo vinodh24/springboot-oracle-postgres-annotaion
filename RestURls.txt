@@ -1,0 +1,34 @@
+
+
+add user
+=============
+
+http://localhost:9385/user/add
+
+{
+    "username" :"Vinodh",
+    "password":"vinodh",
+    "email":"vinodh.sangavaram@velankani.com"
+}
+
+update user
+==================
+
+http://localhost:9385/user/updateUser
+
+{
+    "user_id": 44,
+    "username": "Vinodh",
+    "password": "vinodh",
+    "email": "vinodh.sangavaram@velankani.com"
+}
+
+
+GetByUser
+=====================
+http://localhost:9385/user/findByUserId/44
+
+
+DeleteByUser
+==============
+http://localhost:9385/user/deleteByUserId/44

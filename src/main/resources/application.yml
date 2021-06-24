@@ -1,0 +1,10 @@
+# Application Config
+spring:
+  application:
+    name: spring-database-xmlconfig
+  profiles:
+    active:
+     - postgres
+     #- oracle  
+     
+server:  port: 9385
